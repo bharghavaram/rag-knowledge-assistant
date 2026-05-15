@@ -1,0 +1,38 @@
+<svg width="820" height="304" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 304">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+  <!-- Window background -->
+  <rect width="820" height="304" rx="12" fill="url(#grad)" stroke="#313244" stroke-width="1"/>
+  <!-- Title bar -->
+  <rect width="820" height="40" rx="12" fill="#181825"/>
+  <rect y="30" width="820" height="10" fill="#181825"/>
+  <!-- Traffic lights -->
+  <circle cx="22" cy="20" r="6" fill="#f38ba8"/>
+  <circle cx="42" cy="20" r="6" fill="#f9e2af"/>
+  <circle cx="62" cy="20" r="6" fill="#a6e3a1"/>
+  <!-- Title text -->
+  <text x="410" y="25" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#cdd6f4">RAG Knowledge Assistant — Live Query Result</text>
+  <!-- Divider -->
+  <line x1="0" y1="40" x2="820" y2="40" stroke="#313244" stroke-width="1"/>
+  <!-- Endpoint line -->
+  <rect x="16" y="44" width="788" height="20" rx="4" fill="#1e1e2e" opacity="0.5"/>
+  <text x="24" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#89dceb">POST</text>
+  <text x="66" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" fill="#a6e3a1">python src/query.py</text>
+  <text x="746" y="58" font-family="'JetBrains Mono',Consolas,monospace" font-size="11" fill="#a6e3a1">200 OK ✓</text>
+  <!-- Response body -->
+  <text x="24" y="60" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">{</text>
+    <text x="24" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;query&quot;</text><text x="94.2" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="109.8" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Evaluation metrics used for RAG systems?&quot;</text><text x="437.4" y="80" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;answer&quot;</text><text x="102" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="117.6" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;Papers used RAGAS: Faithfulness, Answer Relevancy, Context Recall...&quot;</text><text x="663.6" y="100" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;sources&quot;</text><text x="109.8" y="120" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: [</text>
+    <text x="24" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">    { &quot;file&quot;: </text><text x="133.2" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;selfrag_paper.pdf&quot;</text><text x="281.4" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;page&quot;: </text><text x="359.4" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">5</text><text x="367.2" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;relevance&quot;: </text><text x="484.2" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">0.91</text><text x="515.4" y="140" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086"> },</text>
+    <text x="24" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">    { &quot;file&quot;: </text><text x="133.2" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;ragas_eval_framework.pdf&quot;</text><text x="336" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;page&quot;: </text><text x="414" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">12</text><text x="429.6" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;relevance&quot;: </text><text x="546.6" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">0.87</text><text x="577.8000000000001" y="160" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086"> }</text>
+    <text x="24" y="180" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">  ],</text>
+    <text x="24" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;retrieval_model&quot;</text><text x="172.2" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="187.79999999999998" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;all-MiniLM-L6-v2&quot;</text><text x="328.2" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;embedding_dim&quot;: </text><text x="476.4" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">384</text><text x="499.79999999999995" y="200" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;vector_store&quot;</text><text x="148.8" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="164.4" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#a6e3a1">&quot;ChromaDB (local, no API key)&quot;</text><text x="398.4" y="220" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">,</text>
+    <text x="24" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#89b4fa">  &quot;latency_ms&quot;</text><text x="133.2" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">: </text><text x="148.79999999999998" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">1840</text><text x="179.99999999999997" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">, &quot;top_k&quot;: </text><text x="265.79999999999995" y="240" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#fab387">5</text>
+    <text x="24" y="260" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" fill="#6c7086">}</text>
+</svg>

@@ -16,7 +16,11 @@
 
 ---
 
-## 🎯 Problem Statement
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bharghavaram/rag-knowledge-assistant/main/docs/images/demo.svg" alt="rag-knowledge-assistant demo" width="820"/>
+</div>
+
+--- 🎯 Problem Statement
 
 Traditional document search returns keyword matches — not answers. A researcher with 50 PDFs cannot ask "What did all papers say about transformer attention mechanisms?" and get a synthesised response. This lightweight RAG system lets you upload any PDFs, builds a ChromaDB semantic index with HuggingFace embeddings (no API key needed), and answers questions with source citations — running entirely locally at zero API cost.
 
